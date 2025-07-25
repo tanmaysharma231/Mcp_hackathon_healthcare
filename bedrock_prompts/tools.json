@@ -1,0 +1,30 @@
+[
+  {
+    "name": "getGlycemicImpact",
+    "description": "Fetches glucose readings and meal events for a specific date.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "date": { "type": "string", "format": "date", "description": "Date in YYYY-MM-DD format." }
+      },
+      "required": ["date"]
+    }
+  },
+  {
+    "name": "simulateMeal",
+    "description": "Simulates the glucose impact of a meal.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "carbs": { "type": "number", "description": "Carbohydrate intake in grams." },
+        "gi": { "type": "number", "description": "Glycemic Index of the meal." }
+      },
+      "required": ["carbs", "gi"]
+    }
+  },
+  {
+    "name": "trendSummary",
+    "description": "Provides a weekly glucose trend summary.",
+    "parameters": { "type": "object", "properties": {} }
+  }
+]
