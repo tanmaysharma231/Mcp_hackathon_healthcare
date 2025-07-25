@@ -91,32 +91,6 @@ export function SettingsSection() {
 
           <Separator />
 
-          {/* Appearance */}
-          <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              {settings.darkMode ? (
-                <Moon className="h-5 w-5 text-primary" />
-              ) : (
-                <Sun className="h-5 w-5 text-primary" />
-              )}
-              <h3 className="font-semibold text-foreground">Appearance</h3>
-            </div>
-            
-            <div className="flex items-center justify-between">
-              <div>
-                <Label htmlFor="dark-mode">Dark Mode</Label>
-                <p className="text-sm text-muted-foreground">Toggle dark theme</p>
-              </div>
-              <Switch
-                id="dark-mode"
-                checked={settings.darkMode}
-                onCheckedChange={(checked) => handleInputChange('darkMode', checked)}
-              />
-            </div>
-          </div>
-
-          <Separator />
-
           {/* Glucose Settings */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">

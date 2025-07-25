@@ -28,10 +28,6 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
               </div>
               
               <div className="flex items-center gap-4">
-                <div className="hidden md:flex items-center gap-2 text-sm text-muted-foreground">
-                  <div className="w-2 h-2 bg-accent rounded-full animate-pulse"></div>
-                  <span>Live Demo Mode</span>
-                </div>
               </div>
             </div>
           </header>
@@ -44,7 +40,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
           {/* Footer */}
           <footer className="border-t border-border bg-card/50 p-4">
             <div className="text-center text-sm text-muted-foreground">
-              © 2025 GlucoGuide. Built with AWS + Bedrock + Love ❤️
+              © 2025 GlucoGuide. Built with AWS + Bedrock
             </div>
           </footer>
         </SidebarInset>
