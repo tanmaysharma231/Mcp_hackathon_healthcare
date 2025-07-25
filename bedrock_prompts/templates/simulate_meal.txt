@@ -1,0 +1,4 @@
+Task: Predict glucose response for a meal with {carbs} grams of carbs and GI {gi}.
+1. Call simulateMeal with provided parameters.
+2. Return expected glucose curve over 4 hours.
+3. Provide advice (e.g., insulin timing suggestions).

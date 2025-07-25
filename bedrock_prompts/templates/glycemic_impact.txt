@@ -1,0 +1,4 @@
+Task: Analyze the glucose impact of a given date.
+1. Call getGlycemicImpact(date).
+2. Summarize spikes, average levels, and likely causes.
+3. Provide 1 actionable recommendation.

@@ -1,0 +1,14 @@
+[
+  {
+    "user": "Why did I spike last night?",
+    "expected_tool_call": { "tool": "getGlycemicImpact", "parameters": { "date": "2025-07-24" } }
+  },
+  {
+    "user": "What will happen if I eat 70g of carbs with GI 65?",
+    "expected_tool_call": { "tool": "simulateMeal", "parameters": { "carbs": 70, "gi": 65 } }
+  },
+  {
+    "user": "How have my glucose levels been this week?",
+    "expected_tool_call": { "tool": "trendSummary", "parameters": {} }
+  }
+]

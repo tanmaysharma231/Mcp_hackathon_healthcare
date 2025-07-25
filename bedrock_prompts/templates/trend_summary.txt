@@ -1,0 +1,5 @@
+Task: Generate a 7-day summary of glucose trends, highlighting spikes and average levels.
+Output:
+- Average glucose over past 7 days
+- Days with highest and lowest readings
+- Key insights (spike patterns, post-meal observations)
